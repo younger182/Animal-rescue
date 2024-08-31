@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(3, 142, 3);
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 5px;
+}
+
+/* .logo img {
+    height: 50px; /* Adjust this height as needed */
+    /* width: auto; */
+/* } */ 
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    font-size: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+}
+
+nav ul li a:hover {
+    color: rgb(15, 187, 15);
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+
+.image {
+    height: 100%;
+    background-color: rgb(215, 215, 250);
+    background-image: url("https://media.licdn.com/dms/image/D4D12AQGwnsTm2ui0qw/article-cover_image-shrink_720_1280/0/1692979356957?e=2147483647&v=beta&t=ZsRsQdWkd4Awheo60KHGiJRh8Ne2MoFvU9x4HLrizYI");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #FF6600;
+    margin-top: 10px;
+}
+
+.about {
+    padding: 60px;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main1 {
+    width: 60%;
+}
+
+
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px; /* Adjust the height as necessary */
+    border: none;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+}
